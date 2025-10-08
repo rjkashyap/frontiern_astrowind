@@ -1,0 +1,20 @@
+source: /
+collections_config:
+  pages:
+    path: ''
+    name: Pages
+    icon: wysiwyg
+    disable_url: true
+  src:
+    path: src
+    name: Src
+    icon: abc
+    disable_url: true
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Pacific/Auckland
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
